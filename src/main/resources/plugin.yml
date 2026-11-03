@@ -1,0 +1,30 @@
+name: ChatPlus
+version: ${project.version}
+main: pl.chatplus.ChatPlus
+api-version: '1.21'
+description: Czat (cooldown), /msg, /ustawienia, /gift
+commands:
+  msg:
+    description: Prywatna wiadomość
+    usage: /msg <nick> <wiadomość>
+    aliases: [w, tell, m, pm]
+  r:
+    description: Odpowiedz na ostatnią prywatną wiadomość
+    usage: /r <wiadomość>
+    aliases: [reply, odp]
+  ustawienia:
+    description: Ustawienia czatu
+    aliases: [settings]
+  gift:
+    description: System giftów
+    usage: /gift [nick]
+  chatplus:
+    description: Administracja pluginem
+    usage: /chatplus reload
+permissions:
+  chatplus.bypass.cooldown:
+    default: op
+  chatplus.bypass.privacy:
+    default: op
+  chatplus.reload:
+    default: op

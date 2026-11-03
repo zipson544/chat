@@ -1,0 +1,47 @@
+czat:
+  # co ile sekund gracz moze wyslac wiadomosc
+  cooldown-sekundy: 5
+
+automatyczne-wiadomosci:
+  wlaczone: true
+  interwal-sekundy: 300
+  prefix: "&8[&e&l!&8] &7"
+  lista:
+    - "&7Pamiętaj, że pod &e/gift &7możesz wysłać przedmiot innemu graczowi!"
+    - "&7Wszystkie ustawienia czatu znajdziesz pod &e/ustawienia&7."
+    - "&7Prywatną wiadomość wyślesz komendą &e/msg <nick> <wiadomość>&7."
+
+gift:
+  wygasa-po-godzinach: 72
+  maks-oczekujacych-na-gracza: 45
+  czas-bossbara-ticki: 100
+
+wiadomosci:
+  czat-cooldown: "&cMożesz pisać na czacie co &e%cooldown% sekund&c! Odczekaj jeszcze &e%czas%s&c."
+  tylko-gracze: "&cTa komenda jest tylko dla graczy."
+  msg-uzycie: "&cUżycie: &e/msg <nick> <wiadomość>"
+  r-uzycie: "&cUżycie: &e/r <wiadomość>"
+  brak-gracza: "&cTen gracz jest offline."
+  msg-do-siebie: "&cNie możesz pisać do samego siebie."
+  msg-wylaczone: "&cTen gracz ma wyłączone prywatne wiadomości."
+  brak-odpowiedzi: "&cNie masz komu odpowiedzieć."
+  msg-wyslana: "&9[&bJa &7-> &b%player%&9] &f%message%"
+  msg-odebrana: "&9[&b%player% &7-> &bJa&9] &f%message%"
+
+  gift-uzycie: "&cUżycie: &e/gift &7lub &e/gift <nick> &7(wysyła przedmiot z ręki)"
+  gift-brak-przedmiotu: "&cMusisz trzymać przedmiot w ręce!"
+  gift-brak-gracza: "&cNie znaleziono gracza &e%player%&c."
+  gift-do-siebie: "&cNie możesz wysłać gifta samemu sobie."
+  gift-limit: "&cTen gracz ma zbyt wiele nieodebranych giftów."
+  gift-wyslano: "&aWysłano gifta do &e%player%&a! Możesz go wycofać w &e/gift &8→ &eHistoria giftów&a."
+  gift-bossbar: "&a&lDostałeś gifta od %player%"
+  gift-bossbar-oczekujace: "&a&lMasz nieodebrane gifty: %ilosc% &7(/gift)"
+  gift-prompt: "&eWpisz na czacie nick gracza, któremu chcesz wysłać przedmiot z ręki (lub &c'anuluj'&e):"
+  gift-prompt-wygaslo: "&cCzas na wpisanie nicku minął."
+  gift-anulowano: "&cAnulowano wysyłanie gifta."
+  gift-odebrano: "&aOdebrano przedmiot od &e%player%&a!"
+  gift-odebrano-sender: "&aGracz &e%player% &aodebrał twojego gifta."
+  gift-brak-miejsca: "&cNie masz miejsca w ekwipunku!"
+  gift-wycofano: "&aWycofano gifta wysłanego do &e%player%&a."
+  gift-juz-nie-ma: "&cTen gift nie jest już dostępny."
+  gift-wygasl: "&cTwój gift dla &e%player% &cwygasł i przepadł."
